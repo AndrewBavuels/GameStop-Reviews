@@ -9,6 +9,7 @@ Dado el dataset [gamestop_product_reviews_dataset_sample](https://www.kaggle.com
 1. **¿Cómo limpiaría y preprocesaría los datos para un análisis más detallado?** 
 2. **¿Cómo normalizarías los datos?**
 
+En la siguiente imagen ya muestro adelanto y cuales son los valores nulos que se encuentran:
 
 ![img_1](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/1.png)
 
