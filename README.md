@@ -13,6 +13,9 @@ En la siguiente imagen ya muestro adelanto y cuales son los valores nulos que se
 
 ![img_1](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/1.png)
 
+A partir de los urls, tambien saqué las categorías de los productos que se venden en Gamestopñ
+
+![img_2](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/2.png)
 #### Observaciones:
 
 - La columna ['review_status'] es nuestro objetivo y consta de 1 y 0 (positivo y negativo, respectivamente)
