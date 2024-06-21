@@ -4,7 +4,7 @@
 
 Dado el dataset [gamestop_product_reviews_dataset_sample](https://www.kaggle.com/datasets/thedevastator/gamestop-customer-reviews-dataset), responde a las siguientes preguntas:
 
-### 1. Preprocesamiento de datos:
+# Parte I - Preprocesamiento de datos:
 
 1. **¿Cómo limpiaría y preprocesaría los datos para un análisis más detallado?** 
 2. **¿Cómo normalizarías los datos?**
