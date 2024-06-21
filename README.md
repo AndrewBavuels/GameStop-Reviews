@@ -9,6 +9,9 @@ Dado el dataset [gamestop_product_reviews_dataset_sample](https://www.kaggle.com
 1. **¿Cómo limpiaría y preprocesaría los datos para un análisis más detallado?** 
 2. **¿Cómo normalizarías los datos?**
 
+
+![img_1](https://github.com/AndrewBavuels/Sales-and-Business-Report-with-Microsoft-Power-BI/blob/main/images/0.png)
+
 #### Observaciones:
 
 - La columna ['review_status'] es nuestro objetivo y consta de 1 y 0 (positivo y negativo, respectivamente)
