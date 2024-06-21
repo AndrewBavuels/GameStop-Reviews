@@ -48,6 +48,13 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
    ![neg_reviews](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/negativos_wordcloud.png)
 
 3. **Muestre una visualización básica de los datos**
+
+![img_7](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/7.png)
+
+   #### Observaciones:
+
+1. el 80% de los comentarios negativos provienen del 20% de las categorias de productos (video games y consoles-hardware). Evidentemente de los productos que las personas mas compran y hacen comentarios. Esto se puede observar en la intersección de la línea verde punteada con la curva roja de los comentarios aumentados.
+2. Para poner un modelo experimental de producción y sea lo mas preciso, utilizaremos la información de solo esas 2 categorias, con comentarios positivos y negativos
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
