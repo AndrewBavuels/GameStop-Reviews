@@ -8,6 +8,14 @@ Dado el dataset [gamestop_product_reviews_dataset_sample](https://www.kaggle.com
 
 1. **¿Cómo limpiaría y preprocesaría los datos para un análisis más detallado?** 
 2. **¿Cómo normalizarías los datos?**
+
+#### Observaciones:
+
+- La columna ['review_status'] es nuestro objetivo y consta de 1 y 0 (positivo y negativo, respectivamente)
+- Los valores nulos se manejaron muy bien desde el principio, en el sentido que no se tuvieron que eliminar registros.
+- Hay demasiadas columnas categóricas (13) en comparación con las 7 numéricas.
+- Ver en que categorias se concentran más los reviews negativos y los positivos.
+- Hacer un diagrama de pareto
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Parte II - Análisis exploratorio de los datos con NLP
