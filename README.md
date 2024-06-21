@@ -18,7 +18,13 @@ A partir de los urls, tambien saqué las categorías de los productos que se ven
 ![img_2](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/2.png)
 
 En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.gamestop.com/)
+
 ![img_3](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/3.png)
+
+![img_4](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/4.png)
+
+![img_5](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/5.png)
+
 #### Observaciones:
 
 - La columna ['review_status'] es nuestro objetivo y consta de 1 y 0 (positivo y negativo, respectivamente)
