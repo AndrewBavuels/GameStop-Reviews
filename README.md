@@ -2,6 +2,10 @@
 
 ## GLOBAL ALUMNI 
 
+ ### Functional architecture design:
+
+![Pipeline Architecture Design](Pipeline%20Architecture.jpg)
+
 Dado el dataset [gamestop_product_reviews_dataset_sample](https://www.kaggle.com/datasets/thedevastator/gamestop-customer-reviews-dataset), responde a las siguientes preguntas:
 
 # Parte I - Preprocesamiento de datos:
