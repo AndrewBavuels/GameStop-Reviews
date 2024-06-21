@@ -2,7 +2,7 @@
 
 ## GLOBAL ALUMNI 
 
- ### Functional architecture design:
+ ### Diseño de la Architectura Funcional y Pipeline de Datos:
 
 ![Pipeline Architecture Design](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/Pipeline%20Architecture%20Draft.png)
 
