@@ -4,7 +4,7 @@
 
  ### Functional architecture design:
 
-![Pipeline Architecture Design](Pipeline%20Architecture.jpg)
+![Pipeline Architecture Design](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/Pipeline%20Architecture%20Draft.png)
 
 Dado el dataset [gamestop_product_reviews_dataset_sample](https://www.kaggle.com/datasets/thedevastator/gamestop-customer-reviews-dataset), responde a las siguientes preguntas:
 
