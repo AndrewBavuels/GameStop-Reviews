@@ -1,6 +1,4 @@
-# Prueba Práctica – Data Scientist
-
-## GLOBAL ALUMNI 
+# GameStop Customer Reviews
 
  ### Diseño de la Architectura Funcional y Pipeline de Datos:
 
