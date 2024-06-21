@@ -25,6 +25,8 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
 
 ![img_5](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/5.png)
 
+![img_6](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/6.png)
+
 #### Observaciones:
 
 - La columna ['review_status'] es nuestro objetivo y consta de 1 y 0 (positivo y negativo, respectivamente)
