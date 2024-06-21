@@ -10,7 +10,7 @@ Dado el dataset [gamestop_product_reviews_dataset_sample](https://www.kaggle.com
 2. **¿Cómo normalizarías los datos?**
 
 
-![img_1](https://github.com/AndrewBavuels/Sales-and-Business-Report-with-Microsoft-Power-BI/blob/main/images/0.png)
+![img_1](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/1.png)
 
 #### Observaciones:
 
