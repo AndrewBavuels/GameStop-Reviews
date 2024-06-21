@@ -41,7 +41,13 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
    ¿Encuentras diferencias significativas entre la distribución de términos provenientes de comentarios positivos y negativos?  
    Para esta sección se entiende comentario positivo por aquel que termina recomendando el producto.
 
-2. **Muestre una visualización básica de los datos**
+   ## Comentarios positivos:
+   ![pos_reviews](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/pos_reviews.png)
+
+   ## Comentarios negativos:
+   ![neg_reviews](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/neg_reviews.png)
+
+3. **Muestre una visualización básica de los datos**
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
