@@ -60,25 +60,20 @@ Este proyecto proporciona un enfoque integral para analizar y clasificar reseña
 - [seaborn](https://seaborn.pydata.org/): For statistical data visualization.
 - [re](https://docs.python.org/3/library/re.html): For regular expression operations.
 - [nltk](https://nltk.org/): For sentiment analysis among natural language processing tasks.
-- [afinn]():
-- [wordcloud]():
+- [afinn](https://pypi.org/project/afinn/): For sentiment analysis using the AFINN lexicon.
+- [wordcloud](https://github.com/amueller/word_cloud): For creating word cloud visualizations.
 - [sklearn](https://scikit-learn.org/stable/): For machine learning modeling and model evaluation.
-- [xgboost](): 
 - [scipy](https://docs.scipy.org/doc/scipy-1.12.0/reference/generated/scipy.stats.skewnorm.html): For scientific and technical computing.
 
 #### Models and Evaluation Metrics:
-- [RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html): Used for predicting diamond prices.
+- [xgboost](https://xgboost.readthedocs.io/en/latest/): For gradient boosting machine learning models, which are powerful for classification tasks.
 - Evaluation metrics include: `mean_squared_error`, `f1_score`, `precision_score`, `recall_score`, `roc_auc_score`, `r2_score`.
-- [LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html): Used for classification.
-- [MLPClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html): Used for classification problems with neural networks.
-- [KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html): Used for classification problems with k-nearest neighbors.
 
 #### Data Preprocessing:
-- [RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html), [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html), [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html): For feature scaling.
+- [RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html): For feature scaling.
 
 #### Modeling Tools:
 - [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html): For splitting data into training and testing sets.
-- [cross_val_score](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html): For model evaluation using cross-validation.
 - [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html): For hyperparameter tuning using cross-validated grid search.
 
 #### Distribution platform
