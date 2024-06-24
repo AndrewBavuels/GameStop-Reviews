@@ -73,16 +73,26 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
 ## 1. Entrene uno o varios modelos para clasificar los comentarios en las siguientes categorías: positivos (rating 4 - 5), neutrales (rating 3) y negativos.**  
    Justifica qué métrica de evaluación has elegido para determinar el modelo que pondrías en producción.
 
-#### Models and Evaluation Metrics:
-- [xgboost](https://xgboost.readthedocs.io/en/latest/): For gradient boosting machine learning models, which are powerful for classification tasks.
-- Evaluation metrics include: `mean_squared_error`, `f1_score`, `precision_score`, `recall_score`, `roc_auc_score`, `r2_score`.
+Para este, solo usé las categorías con el 80% de los reviews negativos.
+
+![img_8](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/8.png)
 
 #### Data Preprocessing:
 - [RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html): For feature scaling.
 
+![img_9](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/9.png)
+
 #### Modeling Tools:
 - [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html): For splitting data into training and testing sets.
+
+![img_10](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/10.png)
+
+#### Models and Evaluation Metrics:
+- [xgboost](https://xgboost.readthedocs.io/en/latest/): For gradient boosting machine learning models, which are powerful for classification tasks.
 - [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html): For hyperparameter tuning using cross-validated grid search.
+- Evaluation metrics include: `mean_squared_error`, `f1_score`, `precision_score`, `recall_score`, `roc_auc_score`, `r2_score`.
+
+![img_11](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/11.png)
 
 #### Mejor modelo:
 
@@ -90,6 +100,12 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
 - Mejores hiperparámetros: {'gamma': 0.1, 'learning_rate': 0.4504506741382034, 'max_depth': 3, 'n_estimators': 500}
 - RMSE en datos de prueba: 0.84216610155471
 - R^2 en datos de prueba: 0.509943603297751
+
+![img_12](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/12.png)
+
+#### Rating predict vs Rating actual
+![img_13](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/13.png)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## **2. Technology stack 💻**
