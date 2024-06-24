@@ -37,7 +37,11 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
 
 ![img_3](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/3.png)
 
+### Categorias de los productos:
+
 ![img_4](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/4.png)
+
+### Sub-categorias de los productos:
 
 ![img_5](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/5.png)
 
