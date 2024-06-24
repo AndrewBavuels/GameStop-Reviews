@@ -2,7 +2,26 @@
 
 ## 1. Project description 👇
 
-Este proyecto se centra en el análisis de un conjunto de datos de reseñas de productos de GameStop, denominado `gamestop_product_reviews_dataset_sample`. El objetivo es realizar un análisis detallado y clasificar los comentarios de los clientes en tres categorías: positivos, neutrales y negativos. El análisis se divide en tres secciones principales: preprocesamiento de datos, análisis exploratorio de datos y análisis de sentimientos.
+Este proyecto se centra en el análisis de un dataset en Kaggle, sobre reseñas de productos de la tienda GameStop. El objetivo es realizar un análisis detallado y clasificar los comentarios de los clientes en tres categorías: positivos, neutrales y negativos. El análisis se divide en tres secciones principales: preprocesamiento de datos, análisis exploratorio de datos y análisis de sentimientos.
+
+# Parte I - Preprocesamiento de datos:
+
+## 1. ¿Cómo limpiaría y preprocesaría los datos para un análisis más detallado?
+
+1. **Eliminación de duplicados**: Remover filas duplicadas en el subset de 'review_description' para evitar comentarios repetidos.
+2. **Manejo de valores nulos**: En este caso fue más fácil rellenar valores nulos por contexto (e.g., "yes" por  "Verified Purchaser" y "no" por "nan").
+3. **Extracción de categorias**: Utilizar bibliotecas como `re` para obtener palabras claves de las url's.
+
+## 2. ¿Cómo normalizarías los datos?
+
+1. **Normalización del texto**: Convertir todo el texto a minúsculas para evitar distinciones entre palabras como "Nintendo" y "nintendo".
+2. **Tokenización**: Dividir el texto en palabras individuales o tokens para obtener términos relevantes a comentarios positivos y negativos.
+3. **Eliminación de stopwords**: Remover palabras comunes que no aportan valor significativo al análisis (e.g., "the", "of", "a").
+4. **Lematización/Stemming**: Reducir las palabras a su forma base (e.g., "playing" a "play").
+5. **Conversión de etiquetas**: Para Machine Learning, se usó LabelEncoder para convertir features en valores numéricos, usar técnicas como Min-Max Scaling o Standard Scaling 
+6. **Escalado de datos**: Para Machine Learning, se usó RobustScaler para normalizar los valores entre un rango específico (e.g., entre 1 y 10 y no entre 1 y 5000).
+
+
 
 ### Preprocesamiento de Datos
 
