@@ -2,7 +2,11 @@
 
 ## 1. Project description 👇
 
-Este proyecto se centra en el análisis de un dataset en Kaggle, sobre reseñas de productos de la tienda GameStop. El objetivo es realizar un análisis detallado y clasificar los comentarios de los clientes en tres categorías: positivos, neutrales y negativos. El análisis se divide en tres secciones principales: preprocesamiento de datos, análisis exploratorio de datos y análisis de sentimientos.
+Este proyecto se centra en el análisis de un dataset en Kaggle, sobre reseñas de productos de la tienda GameStop. El objetivo es realizar un análisis detallado y clasificar los comentarios de los clientes en tres categorías: positivos, neutrales y negativos. El análisis se divide en tres secciones principales: preprocesamiento de datos, análisis exploratorio de datos y análisis de sentimientos, descrito en la siguiente arquitectura de la pipeline de datos:
+
+### Diseño de la Architectura Funcional y Pipeline de Datos:
+
+![Pipeline Architecture Design](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/Pipeline%20Architecture%20Draft.png)
 
 # Parte I - Preprocesamiento de datos:
 
@@ -86,10 +90,6 @@ En esta sección, se entrenan uno o varios modelos de clasificación para catego
     - Selección del modelo más adecuado para producción basado en la métrica de evaluación elegida.
 
 Este proyecto proporciona un enfoque integral para analizar y clasificar reseñas de productos, ofreciendo insights valiosos sobre la percepción de los clientes y mejorando la capacidad de respuesta a sus comentarios.
-
-### Diseño de la Architectura Funcional y Pipeline de Datos:
-
-![Pipeline Architecture Design](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/Pipeline%20Architecture%20Draft.png)
 
 ## **2. Technology stack 💻**
 
