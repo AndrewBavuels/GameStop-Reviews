@@ -44,11 +44,48 @@ En esta sección, se entrenan uno o varios modelos de clasificación para catego
 
 Este proyecto proporciona un enfoque integral para analizar y clasificar reseñas de productos, ofreciendo insights valiosos sobre la percepción de los clientes y mejorando la capacidad de respuesta a sus comentarios.
 
-
-
- ### Diseño de la Architectura Funcional y Pipeline de Datos:
+### Diseño de la Architectura Funcional y Pipeline de Datos:
 
 ![Pipeline Architecture Design](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/Pipeline%20Architecture%20Draft.png)
+
+## **2. Technology stack 💻**
+
+### Programming language:
+- [Python](https://docs.python.org/3/)
+
+### Python Libraries:
+- [pandas](https://pandas.pydata.org/docs/reference/frame.html): For data manipulation and analysis.
+- [numpy](https://numpy.org/doc/stable/): For mathematical operations and array manipulation.
+- [matplotlib.pyplot](https://matplotlib.org/stable/contents.html): For data visualization.
+- [seaborn](https://seaborn.pydata.org/): For statistical data visualization.
+- [re](https://docs.python.org/3/library/re.html): For regular expression operations.
+- [nltk](https://nltk.org/): For sentiment analysis among natural language processing tasks.
+- [afinn]():
+- [wordcloud]():
+- [sklearn](https://scikit-learn.org/stable/): For machine learning modeling and model evaluation.
+- [xgboost](): 
+- [scipy](https://docs.scipy.org/doc/scipy-1.12.0/reference/generated/scipy.stats.skewnorm.html): For scientific and technical computing.
+
+#### Models and Evaluation Metrics:
+- [RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html): Used for predicting diamond prices.
+- Evaluation metrics include: `mean_squared_error`, `f1_score`, `precision_score`, `recall_score`, `roc_auc_score`, `r2_score`.
+- [LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html): Used for classification.
+- [MLPClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html): Used for classification problems with neural networks.
+- [KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html): Used for classification problems with k-nearest neighbors.
+
+#### Data Preprocessing:
+- [RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html), [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html), [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html): For feature scaling.
+
+#### Modeling Tools:
+- [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html): For splitting data into training and testing sets.
+- [cross_val_score](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html): For model evaluation using cross-validation.
+- [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html): For hyperparameter tuning using cross-validated grid search.
+
+#### Distribution platform
+- [Anaconda](https://www.anaconda.com/)
+
+#### Computing environment
+- [Jupyter Notebooks](https://jupyter.org/)
 
 Dado el dataset [gamestop_product_reviews_dataset_sample](https://www.kaggle.com/datasets/thedevastator/gamestop-customer-reviews-dataset), responde a las siguientes preguntas:
 
