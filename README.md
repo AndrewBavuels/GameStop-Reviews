@@ -45,6 +45,8 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
 
 ![img_5](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/5.png)
 
+### En la siguiente matriz de correlación, podemos observar que la columna 'review_status' (recomienda un producto o no) tiene una correlación moderada con el rating:
+
 ![img_6](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/6.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
