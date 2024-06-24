@@ -46,7 +46,8 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Parte II - Análisis exploratorio de los datos con NLP
-1. **¿Cuáles son los términos relevantes más frecuentes en los comentarios?**  
+
+## 1. ¿Cuáles son los términos relevantes más frecuentes en los comentarios?  
    ¿Encuentras diferencias significativas entre la distribución de términos provenientes de comentarios positivos y negativos?  
    Para esta sección se entiende comentario positivo por aquel que termina recomendando el producto.
 
@@ -56,40 +57,33 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
    ## Comentarios negativos:
    ![neg_reviews](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/negativos_wordcloud.png)
 
-3. **Muestre una visualización básica de los datos**
+## 2. Muestre una visualización básica de los datos
 
 ![img_7](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/7.png)
 
-   #### Observaciones:
+#### Observaciones:
 
 1. el 80% de los comentarios negativos provienen del 20% de las categorias de productos (video games y consoles-hardware). Evidentemente de los productos que las personas mas compran y hacen comentarios. Esto se puede observar en la intersección de la línea verde punteada con la curva roja de los comentarios aumentados.
 2. Para poner un modelo experimental de producción y sea lo mas preciso, utilizaremos la información de solo esas 2 categorias, con comentarios positivos y negativos
 
-### Análisis Exploratorio de los Datos
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-El análisis exploratorio se centra en identificar los términos más frecuentes en los comentarios y analizar las diferencias entre los comentarios positivos y negativos. Esto incluye:
+# Parte III. Análisis de sentimientos con ML
 
-1. **Identificación de Términos Relevantes**:
-    - Extracción de las palabras más comunes en los comentarios.
-    - Análisis de la frecuencia de términos para detectar patrones significativos.
+## 1. Entrene uno o varios modelos para clasificar los comentarios en las siguientes categorías: positivos (rating 4 - 5), neutrales (rating 3) y negativos.**  
+   Justifica qué métrica de evaluación has elegido para determinar el modelo que pondrías en producción.
 
-2. **Distribución de Términos**:
-    - Comparación de la distribución de términos entre comentarios positivos (aquellos que recomiendan el producto) y comentarios negativos.
-    - Visualización básica de los datos mediante gráficos de barras, nubes de palabras, etc.
+#### Models and Evaluation Metrics:
+- [xgboost](https://xgboost.readthedocs.io/en/latest/): For gradient boosting machine learning models, which are powerful for classification tasks.
+- Evaluation metrics include: `mean_squared_error`, `f1_score`, `precision_score`, `recall_score`, `roc_auc_score`, `r2_score`.
 
-### Análisis de Sentimientos
+#### Data Preprocessing:
+- [RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html): For feature scaling.
 
-En esta sección, se entrenan uno o varios modelos de clasificación para categorizar los comentarios en positivos (rating 4-5), neutrales (rating 3) y negativos (rating 1-2). Las etapas incluyen:
-
-1. **Entrenamiento de Modelos**:
-    - Selección de modelos de clasificación adecuados (por ejemplo, Naive Bayes, SVM, redes neuronales).
-    - Entrenamiento y validación de los modelos usando el dataset preprocesado.
-
-2. **Métricas de Evaluación**:
-    - Justificación de la métrica de evaluación seleccionada (por ejemplo, precisión, recall, F1-score).
-    - Selección del modelo más adecuado para producción basado en la métrica de evaluación elegida.
-
-Este proyecto proporciona un enfoque integral para analizar y clasificar reseñas de productos, ofreciendo insights valiosos sobre la percepción de los clientes y mejorando la capacidad de respuesta a sus comentarios.
+#### Modeling Tools:
+- [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html): For splitting data into training and testing sets.
+- [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html): For hyperparameter tuning using cross-validated grid search.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## **2. Technology stack 💻**
 
@@ -108,51 +102,11 @@ Este proyecto proporciona un enfoque integral para analizar y clasificar reseña
 - [sklearn](https://scikit-learn.org/stable/): For machine learning modeling and model evaluation.
 - [scipy](https://docs.scipy.org/doc/scipy-1.12.0/reference/generated/scipy.stats.skewnorm.html): For scientific and technical computing.
 
-#### Models and Evaluation Metrics:
-- [xgboost](https://xgboost.readthedocs.io/en/latest/): For gradient boosting machine learning models, which are powerful for classification tasks.
-- Evaluation metrics include: `mean_squared_error`, `f1_score`, `precision_score`, `recall_score`, `roc_auc_score`, `r2_score`.
-
-#### Data Preprocessing:
-- [RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html): For feature scaling.
-
-#### Modeling Tools:
-- [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html): For splitting data into training and testing sets.
-- [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html): For hyperparameter tuning using cross-validated grid search.
-
 #### Distribution platform
 - [Anaconda](https://www.anaconda.com/)
 
 #### Computing environment
 - [Jupyter Notebooks](https://jupyter.org/)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-# Parte II - Análisis exploratorio de los datos con NLP
-1. **¿Cuáles son los términos relevantes más frecuentes en los comentarios?**  
-   ¿Encuentras diferencias significativas entre la distribución de términos provenientes de comentarios positivos y negativos?  
-   Para esta sección se entiende comentario positivo por aquel que termina recomendando el producto.
-
-   ## Comentarios positivos:
-   ![pos_reviews](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/positivos_wordcloud.png)
-
-   ## Comentarios negativos:
-   ![neg_reviews](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/negativos_wordcloud.png)
-
-3. **Muestre una visualización básica de los datos**
-
-![img_7](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/7.png)
-
-   #### Observaciones:
-
-1. el 80% de los comentarios negativos provienen del 20% de las categorias de productos (video games y consoles-hardware). Evidentemente de los productos que las personas mas compran y hacen comentarios. Esto se puede observar en la intersección de la línea verde punteada con la curva roja de los comentarios aumentados.
-2. Para poner un modelo experimental de producción y sea lo mas preciso, utilizaremos la información de solo esas 2 categorias, con comentarios positivos y negativos
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-# Parte III. Análisis de sentimientos con ML
-
-1. **Entrene uno o varios modelos para clasificar los comentarios en las siguientes categorías: positivos (rating 4 - 5), neutrales (rating 3) y negativos.**  
-   Justifica qué métrica de evaluación has elegido para determinar el modelo que pondrías en producción.
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
