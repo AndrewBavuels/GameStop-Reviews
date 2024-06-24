@@ -1,5 +1,51 @@
 # GameStop Customer Reviews
 
+## 1. Project description 👇
+
+Este proyecto se centra en el análisis de un conjunto de datos de reseñas de productos de GameStop, denominado `gamestop_product_reviews_dataset_sample`. El objetivo es realizar un análisis detallado y clasificar los comentarios de los clientes en tres categorías: positivos, neutrales y negativos. El análisis se divide en tres secciones principales: preprocesamiento de datos, análisis exploratorio de datos y análisis de sentimientos.
+
+### Preprocesamiento de Datos
+
+Para llevar a cabo un análisis más detallado, los datos deben ser limpiados y preprocesados. Las etapas de preprocesamiento incluyen:
+
+1. **Limpieza de Datos**: 
+    - Eliminación de duplicados.
+    - Manejo de valores nulos.
+    - Corrección de errores tipográficos y normalización de texto (por ejemplo, convertir todo el texto a minúsculas).
+
+2. **Normalización de Datos**: 
+    - Conversión de las reseñas a un formato uniforme.
+    - Tokenización de los comentarios.
+    - Eliminación de stopwords (palabras comunes que no aportan valor significativo al análisis).
+
+### Análisis Exploratorio de los Datos
+
+El análisis exploratorio se centra en identificar los términos más frecuentes en los comentarios y analizar las diferencias entre los comentarios positivos y negativos. Esto incluye:
+
+1. **Identificación de Términos Relevantes**:
+    - Extracción de las palabras más comunes en los comentarios.
+    - Análisis de la frecuencia de términos para detectar patrones significativos.
+
+2. **Distribución de Términos**:
+    - Comparación de la distribución de términos entre comentarios positivos (aquellos que recomiendan el producto) y comentarios negativos.
+    - Visualización básica de los datos mediante gráficos de barras, nubes de palabras, etc.
+
+### Análisis de Sentimientos
+
+En esta sección, se entrenan uno o varios modelos de clasificación para categorizar los comentarios en positivos (rating 4-5), neutrales (rating 3) y negativos (rating 1-2). Las etapas incluyen:
+
+1. **Entrenamiento de Modelos**:
+    - Selección de modelos de clasificación adecuados (por ejemplo, Naive Bayes, SVM, redes neuronales).
+    - Entrenamiento y validación de los modelos usando el dataset preprocesado.
+
+2. **Métricas de Evaluación**:
+    - Justificación de la métrica de evaluación seleccionada (por ejemplo, precisión, recall, F1-score).
+    - Selección del modelo más adecuado para producción basado en la métrica de evaluación elegida.
+
+Este proyecto proporciona un enfoque integral para analizar y clasificar reseñas de productos, ofreciendo insights valiosos sobre la percepción de los clientes y mejorando la capacidad de respuesta a sus comentarios.
+
+
+
  ### Diseño de la Architectura Funcional y Pipeline de Datos:
 
 ![Pipeline Architecture Design](https://github.com/AndrewBavuels/GameStop-Reviews/blob/main/images/Pipeline%20Architecture%20Draft.png)
