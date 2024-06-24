@@ -83,6 +83,13 @@ En paralelo, me ayudaba navegando en la misma pagína de [Gamestop](https://www.
 #### Modeling Tools:
 - [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html): For splitting data into training and testing sets.
 - [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html): For hyperparameter tuning using cross-validated grid search.
+
+#### Mejor modelo:
+
+- Fitting 5 folds for each of 100 candidates, totalling 500 fits
+- Mejores hiperparámetros: {'gamma': 0.1, 'learning_rate': 0.4504506741382034, 'max_depth': 3, 'n_estimators': 500}
+- RMSE en datos de prueba: 0.84216610155471
+- R^2 en datos de prueba: 0.509943603297751
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## **2. Technology stack 💻**
